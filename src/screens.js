@@ -1,0 +1,16 @@
+export const screens = [
+  ['welcome', 'Welcome', 'Start here'], ['home', 'Home', 'Explore'],
+  ['discover', 'Discover professionals', 'Explore'], ['provider-detail', 'Professional profile', 'Explore'],
+  ['home-services', 'Home services', 'Explore'], ['ai', 'Style studio', 'Transform'],
+  ['ai-result', 'Style concept', 'Transform'], ['programs', 'Programs', 'Transform'],
+  ['program-detail', 'Program details', 'Transform'], ['goal', 'Define a goal', 'Transform'],
+  ['plan', 'Personal plan', 'Transform'], ['journey', 'Your journey', 'Transform'],
+  ['booking', 'Book an experience', 'Bookings'], ['confirmation', 'Booking confirmation', 'Bookings'],
+  ['bookings', 'Appointments', 'Bookings'], ['membership', 'Membership', 'Lifestyle'],
+  ['shop', 'Shop the edit', 'Lifestyle'], ['cart', 'Shopping bag', 'Lifestyle'],
+  ['academy', 'Academy', 'Academy'], ['course', 'Course details', 'Academy'],
+  ['enrollment', 'Enrolment', 'Academy'], ['provider', 'Provider workspace', 'Business'],
+  ['onboarding', 'Professional onboarding', 'Business'], ['franchise', 'Franchise', 'Business'],
+  ['corporate', 'Corporate wellness', 'Business'], ['about', 'About Candelia', 'More'],
+  ['account', 'Your space', 'More'],
+].map(([id, label, group]) => ({ id, label, group }));
